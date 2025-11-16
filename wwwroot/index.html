@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>All the Small Things Home Repair - Home</title>
+  <meta name="description" content="Your friendly neighborhood solution for small home fixes, honey-do lists, and minor repairs in the Jersey Shore area. No job is too small!">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <meta property="og:title" content="All the Small Things Home Repair" />
+  <meta property="og:description" content="Reliable, on-time service for all your small home repair needs." />
+  <meta property="og:image" content="assets/images/social-share-card.jpg" />
+  <meta property="og:url" content="https://www.allthesmallthingsrepair.com" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preload" as="image"
+        href="assets/images/logo.png"
+        imagesrcset="assets/images/logo.png 1x, assets/images/logo.png 2x"
+        imagesizes="(min-width: 821px) 80px, 56px">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Override: make hero button same size as normal .btn -->
+  <style>
+    .intro-banner .btn,
+    .intro-banner .btn.btn--primary {
+      font-size: 1rem !important;
+      line-height: 1.2 !important;
+      padding: 0.625rem 1rem !important; /* match your smaller buttons */
+      border-radius: 9999px; /* keep pill look */
+    }
+    .intro-banner .btn svg {
+      width: 16px !important;
+      height: 16px !important;
+      margin-right: 0.5rem;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body class="home-page">
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="All the Small Things Home Repair — Home">
+        <img src="assets/images/logo.png"
+             srcset="assets/images/logo.png 1x, assets/images/logo.png 2x"
+             sizes="(min-width: 821px) 80px, 56px"
+             width="80" height="80"
+             alt="All the Small Things Home Repair"
+             loading="eager" fetchpriority="high" decoding="async">
+      </a>
+
+      <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              More
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu" id="nav-more">
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <!-- Gallery link temporarily hidden; uncomment when ready -->
+              <!-- <li><a href="gallery.html">Before &amp; After Gallery</a></li> -->
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Intro banner -->
+    <section class="intro-banner container">
+      <!-- NEW: visible tagline above the glass card -->
+      <p class="tagline-highlight tagline-top">
+        It's the little things that make a big difference.
+      </p>
+
+      <div class="intro-content">
+        <!-- OLD tagline kept for spacing, but made invisible in CSS -->
+        <p class="tagline-highlight tagline-inside" aria-hidden="true">
+          It's the little things that make a big difference.
+        </p>
+
+        <div class="cta-group">
+          <a href="contact.html" class="btn">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M7 2v3M17 2v3M3 10h18M5 6h14a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Schedule a Repair</span>
+          </a>
+          <p class="microcopy" aria-hidden="true">Free estimates • No obligation</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome-section container">
+      <h2>Welcome to All the Small Things Home Repair</h2>
+      <p class="welcome-message">
+        Your friendly neighborhood solution for all those small home fixes and honey-do list items you’ve been meaning to get done. We believe no job is too small – if it matters to you and your home, it matters to us!
+      </p>
+      <ul class="key-points list-checked">
+        <li><strong>Reliable &amp; On-Time:</strong> Count on timely, dependable service. We show up when we say we will.</li>
+        <li><strong>Quality Workmanship:</strong> We treat your home like our own, with attention to detail on every project.</li>
+        <li><strong>Licensed, Insured &amp; Bonded</strong> &mdash; For your peace of mind, we're fully qualified and protected on every job.</li>
+      </ul>
+    </section>
+
+    <section class="services-snapshot">
+      <div class="container">
+        <h2>Our Services At a Glance</h2>
+        <div class="service-cards">
+          <div class="service-card">
+            <h3>Carpentry</h3>
+            <p>Fixing doors, trim, shelving, and more small carpentry tasks around the house.</p>
+          </div>
+          <div class="service-card">
+            <h3>Plumbing</h3>
+            <p>Repairing leaky faucets, unclogging drains, and other minor plumbing fixes.</p>
+          </div>
+          <div class="service-card">
+            <h3>Electrical</h3>
+            <p>Replacing light fixtures, installing fans, and small electrical repairs.</p>
+          </div>
+        </div>
+        <p class="services-link">
+          <a href="services.html" class="btn">Explore All Services &rarr;</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="testimonial-teaser container">
+      <h2>What Our Customers Say</h2>
+      <blockquote class="testimonial">
+        “Fantastic work! My leaking faucet and broken door were fixed perfectly. It’s amazing how all the small things were taken care of so quickly.”
+        <cite>&mdash; Jane S., Ocean Township</cite>
+      </blockquote>
+      <p><a href="testimonials.html" class="btn">Read More Testimonials &rarr;</a></p>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <h2>Ready to fix all the small things in your home?</h2>
+        <p>Let's get started! Book an appointment and let us take care of those little tasks that make a big difference.</p>
+        <a href="contact.html" class="btn btn--primary">Book an Appointment</a>
+      </div>
+    </section>
+
+    <a class="sticky-cta" href="contact.html">Schedule a Repair</a>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p class="contact-info">
+        <strong>Phone:</strong> <a href="tel:7324917817">(732) 491-7817</a> &nbsp;
+        <strong>Email:</strong> <a href="mailto:info@allthesmallthingsrepair.com">info@allthesmallthingsrepair.com</a>
+      </p>
+      <p class="service-area">
+        <strong>Service Area:</strong> All of Ocean County and lower Monmouth.
+      </p>
+      <p class="tagline-footer">“It’s the little things that make a big difference.”</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

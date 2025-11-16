@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact Us - All the Small Things Home Repair</title>
+  <meta name="description" content="Contact All the Small Things Home Repair for questions or to schedule a visit. Reach out by phone, email, or our online form." />
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <meta property="og:title" content="Contact Us - All the Small Things Home Repair" />
+  <meta property="og:description" content="Reliable, on-time service for all your small home repair needs." />
+  <meta property="og:image" content="assets/images/social-share-card.jpg" />
+  <meta property="og:url" content="https://www.allthesmallthingsrepair.com/contact.html" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Calendly embed assets -->
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="All the Small Things Home Repair — Home">
+        <img src="assets/images/logo.png" alt="" />
+      </a>
+
+      <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              More
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu" id="nav-more">
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <!-- Gallery link temporarily hidden; uncomment when ready -->
+              <!-- <li><a href="gallery.html">Before &amp; After Gallery</a></li> -->
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p class="page-intro">We’re here to answer your questions or set up a visit. Reach out to us anytime!</p>
+
+      <section class="contact-info-section">
+        <h2>Contact Information</h2>
+        <p><strong>Phone:</strong> <a href="tel:7324917817">(732) 491-7817</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@allthesmallthingsrepair.com">info@allthesmallthingsrepair.com</a></p>
+        <p><strong>Hours:</strong> Mon–Fri 8:00am – 6:00pm; Sat 9:00am – 2:00pm; Closed Sunday</p>
+        <p><strong>Service Area:</strong> All of Ocean County and lower Monmouth.</p>
+      </section>
+
+<section class="contact-form-section">
+  <h2>Send Us a Message</h2>
+
+  <!-- Microsoft Forms embed -->
+  <div class="ms-form-wrapper">
+    <iframe
+    src="https://forms.office.com/Pages/ResponsePage.aspx?id=X6xGHUzYskO_3aFfHtlRhE8a3RdFVW9DnOv1OYDcAq1UOFdWU0lXUVJFRUgwM05aVk1QSFhKREQ3RS4u&embed=true"
+    width="100%"
+    height="1000"              <!-- increase height so the whole form fits -->
+    frameborder="0"
+    marginwidth="0"
+    marginheight="0"
+    style="border: none; max-width: 800px; display: block; margin: 0 auto;"
+    allowfullscreen
+    webkitallowfullscreen
+    mozallowfullscreen
+    msallowfullscreen>
+</iframe>
+  </div>
+
+  <p class="form-note">
+    <em>We’ll get back to you as soon as possible to discuss your needs.</em>
+  </p>
+</section>
+
+      <!-- Calendly scheduling (INLINE EMBED) -->
+      <section class="scheduling-section">
+        <h2>Schedule an Appointment Online</h2>
+        <p>Prefer to book a time directly? Use our online scheduler below to pick a convenient time for us to visit:</p>
+
+        <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/allthesmallthingsrepair-info/60min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
+<!-- Calendly inline widget end -->
+        <!-- If you’d rather use a popup button, comment out the inline widget above and uncomment below:
+        <p><button class="btn cta-btn"
+          onclick="
+            const name = document.querySelector('#name')?.value || '';
+            const email = document.querySelector('#email')?.value || '';
+            const base = 'https://calendly.com/allthesmallthingsrepair-info/30min';
+            const qs = (name || email) ? `?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}` : '';
+            Calendly.initPopupWidget({ url: base + qs + (qs ? '&' : '?') + 'hide_event_type_details=1&hide_gdpr_banner=1' });
+            return false;
+          ">
+          Book a 30-Minute Visit
+        </button></p>
+        -->
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p class="contact-info">
+        <strong>Phone:</strong> <a href="tel:7324917817">(732) 491-7817</a> &nbsp;
+        <strong>Email:</strong> <a href="mailto:info@allthesmallthingsrepair.com">info@allthesmallthingsrepair.com</a>
+      </p>
+      <p class="service-area">
+        <strong>Service Area:</strong> All of Ocean County and lower Monmouth.
+      </p>
+      <p class="tagline-footer">“It’s the little things that make a big difference.”</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
